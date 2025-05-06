@@ -1,66 +1,70 @@
-# UCF-Map
+# 🌍 Welcome to UCF Map Guessr - An Interactive University Location Guess Game App
+**MongoDB | Express.js | React | Node.js | Nodemon | Vite | AWS Lightsail | Leaflet.js (MERN Stack)**
 
-UCF Map
+Hello! This is the showcase for the **UCF Map Guessr** project I recently helped develop.  
+I was responsible for building the front-end and integrating the interactive map using the **Leaflet API**.
 
-# Dev Setup:
+🔗 **Original Repository (My Contributions):**  
+[https://github.com/EvanPartidas/UCF-Map](https://github.com/EvanPartidas/UCF-Map)
 
-To setup the development environment, install the version of node that is located in .nvmrc (Currently this is v20.14.0)
+🔗 **Live Demo:**  
+[https://ucfmap.evanpartidas.com/](https://ucfmap.evanpartidas.com/)
 
-### Step 1:
+<br>
 
-Make sure you have the correct version of node.
+## 🏠 Home  
+<div align="center">  
+  <img src="github/images/Home.png" height="300px" width="auto" alt="Home Page Screenshot">  
+</div>
 
-```
-node --version
-```
+## 🔐 Log In  
+<div align="center">  
+  <img src="github/images/Log-In.png" height="300px" width="auto" alt="Log In Screenshot">  
+</div>
 
-You should see: v20.14.0. If you don't have the correct version of node. GET IT! If you install packages with the wrong node version you'll probably have to delete the node_modules directory and reinstall everything.
+## 📝 Sign Up  
+<div align="center">  
+  <img src="github/images/Sign-Up.png" height="300px" width="auto" alt="Sign Up Screenshot">  
+</div>
 
-### Step 2:
+## 📍 Create a Guess  
+<div align="center">  
+  <img src="github/images/Create-Guess.png" height="300px" width="auto" alt="Create a Guess Screenshot">  
+</div>
 
-Create a `.env` file in the project root directory. It should have the following:
+## 🎮 Play Now  
+<div align="center">  
+  <img src="github/images/Play-Now.png" height="300px" width="auto" alt="Play Now Screenshot">  
+</div>
 
-```
-DATABASE_URL=mongodb://cluster0.021xzub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-DATABASE_USERNAME=[redacted]
-DATABASE_PASSWORD=[redacted]
-```
+<br>
 
-### Step 3:
+## ✨ Key Features  
+- Interactive map gameplay using Leaflet.js  
+- User authentication (Sign up & Log in)  
+- Create and manage custom location-based challenges  
+- Real-time score tracking  
+- Responsive UI with React
 
-WHEN YOU HAVE THE CORRECT VERSION OF NODE, install the dependences:
+<br>
 
-```
-npm install
-```
+## 🛠 Technologies Used  
+- **MongoDB** - Database  
+- **Express.js** - Server Side Logic  
+- **React** - Front-End Development  
+- **Node.js** - Backend Runtime  
+- **Nodemon** - Local Development
+- **Vite** - Fast Front-End Development And Bundling
+- **AWS Lightsail** - Deployment  
+- **Leaflet.js** - Interactive Map Integration
 
-### Step 4: DO NOT SKIP!!! IMPORTANT!
+<br>
 
-MAKE SURE you are using VS Code and that you have Prettier Installed (`esbenp.prettier-vscode`). If you don't do this, then it will create a lot of problems when you accidentally format someone else's code, completely overwriting their work with your github commit.
-
-### Step 5:
-
-Please look at the guide to contributing below!!!!
-
-You can run the development server with the following command, check it out in your browser.
-
-```
-npm run dev
-```
-
-# Contributing
-
-Whenever you want to submit ANY changes. Check out what changes you're going to commit by using vscode's source control graphic.
-![Example of a commit](./github/images/ExampleOfCommit.png)
-Check EVERY file and scroll through the ENTIRE file to make sure you're not screwing anything up. Write a commit messages describing what you did and then hit commit.
-
-You may need to pull changes before you can sync/push your changes.
-![Example of a Pull](./github/images/ExampleOfPull.png)
-
-## Merge Conflicts
-
-When trying to commit your changes, you may run into a problem where you edited the same file that someone else did, and they pushed their changes before you. Hopefully, everyone is using the same formatter so it won't be whitespace changes screwing up your code.
-
-When you do run into that problem, you can use VS Code's built-in merge conflict resolver. It might be intimidating the first time so [Here's a video](https://youtu.be/lz5OuKzvadQ?si=aB9QrZjR0N-um-8E) I found on it. I'd recommend just learning the "3-way" version but use whatever you like more.
-
-Link to video in plaintext: https://youtu.be/lz5OuKzvadQ?si=aB9QrZjR0N-um-8E
+🤝Contributors:
+- Travis Grant
+- Alex Reyes
+- Jairyn Cole
+- Jesus Molina
+- Evan Partidas
+- Diego Santos
+- Joshua Browen
